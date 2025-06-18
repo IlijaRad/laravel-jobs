@@ -10,9 +10,7 @@
 
         <div class="space-y-12">
             <div class="border-b border-gray-900/10 pb-12">
-            <h2 class="text-base/7 font-semibold text-gray-900">Edit Job</h2>
-            <p class="mt-1 text-sm/6 text-gray-600">We just need a handful of details from you.</p>
-            <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+            <div class="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div class="sm:col-span-4">
                     <label for="title" class="block text-sm/6 font-medium text-gray-900">Title</label>
                     
@@ -53,14 +51,6 @@
                 </div>
                 </div>
             </div>
-
-            <!-- @if($errors->any())
-                <ul class="mt-10">
-                    @foreach($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            @endif -->
             </div>
         </div>
 
