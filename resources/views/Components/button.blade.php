@@ -1,0 +1,1 @@
+     <a {{ $attributes->merge(['class' => 'px-4 py-2 text-sm font-medium text-gray-700 bg-white border-gray-300 rounded-md hover:text-gray-500 border']) }}>{{ $slot }}</a>
